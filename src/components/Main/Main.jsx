@@ -20,26 +20,33 @@ const Main = () => {
             <img src={assets.compass_icon} alt="" />
         </div>
         <div className="card">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, velit.</p>
+            <p>Briefly sumarize this concept: urban planning</p>
             <img src={assets.bulb_icon} alt="" />
         </div>
         <div className="card">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere error quos eius?</p>
+            <p>Brainstrom team bonding activities for our work retreat</p>
             <img src={assets.message_icon} alt="" />
         </div>
         <div className="card">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente.</p>
+            <p>Imporve the readability of the following code</p>
             <img src={assets.code_icon} alt="" />
         </div>
-
+    </div>
+    <div className="main-bottom">
+        <div className="search-box">
+            <input type="text" placeholder='Enter a prompt here' />
+            <div>
+                <img src={assets.gallery_icon} alt="" />
+                <img src={assets.mic_icon}alt="" />
+                <img src={assets.send_icon} alt="" />
+            </div>
         </div>
-
-
+        <p className="bottom-info">
+        Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps
+        </p>
     </div>
 
-
-
-
+    </div>
     </div>
     </>
   )
